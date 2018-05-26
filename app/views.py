@@ -1,16 +1,22 @@
-from flask import render_template, url_for, redirect, g, request ##
+from flask import render_template, url_for, redirect, g, request
 from app import app
 from .forms import TaskForm
-import json ##
+import json
 
 # rethink imports
 import rethinkdb as r
 from rethinkdb.errors import RqlRuntimeError, RqlDriverError
 
 # rethink config
-RDB_HOST =  'localhost'
+RDB_HOST =  'localhost' 
 RDB_PORT = 28015
 TODO_DB = 'todo'
+
+"""
+
+        AVAST STOPS FROM WORKING MUST DISABLE FIREWALL FOR WEB
+
+"""
 
 # db setup; only run once
 def dbSetup():
