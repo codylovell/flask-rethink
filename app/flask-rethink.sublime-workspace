@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"return\tkeyword"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
 				"add",
 				"add_to_list\tfunction"
 			],
@@ -27,9 +35,28 @@
 			"file": "views.py",
 			"settings":
 			{
-				"buffer_size": 1506,
+				"buffer_size": 1575,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/chuck/Development/Python/Flask/flask-rethink/run.py",
+			"settings":
+			{
+				"buffer_size": 578,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/login.html",
+			"settings":
+			{
+				"buffer_size": 763,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "login.html"
 			}
 		},
 		{
@@ -66,7 +93,7 @@
 	"command_palette":
 	{
 		"height": 302.0,
-		"last_filter": "pytho",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -115,7 +142,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/chuck/Development/Python/Flask/flask-rethink",
-		"/C/Users/chuck/Development/Python/Flask/flask-rethink/app"
+		"/C/Users/chuck/Development/Python/Flask/flask-rethink/app",
+		"/C/Users/chuck/Development/Python/Flask/flask-rethink/app/templates"
 	],
 	"file_history":
 	[
@@ -161,7 +189,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -170,15 +198,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1506,
+						"buffer_size": 1575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1048,
-								1048
+								833,
+								833
 							]
 						],
 						"settings":
@@ -202,11 +230,81 @@
 						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/chuck/Development/Python/Flask/flask-rethink/run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								578
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"auto_name": "login.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "forms.py",
 					"semi_transient": false,
 					"settings":
@@ -230,7 +328,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
